@@ -1,0 +1,42 @@
+En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+Variables:
+
+	Las variables son una forma de guardar un valor para usarlo luego;
+en Javascript no es necesario declarar el tipo de variable (si es un numero o una cadena), 
+para poder crearla usamos la palabra clave "var" seguida de un espacio y el nombre de dicha variable,
+por ultimo podemos asignarle un valor usando el signo "=" seguido del valor.
+
+Strings:
+
+	Los Strings son un tipo de variable que se compone de bloques de texto, siempre van entre comillas
+simples o dobles; ejemplo: var nombre = "Jorge"; en el ejemplo creamos la variable (var) "nombre" y le asignamos
+el valor "Jorge", al estar entre comillas sabemos que es un String es decir que es una variable de tipo de texto.
+
+Funciones (argumentos, return):
+
+	Las funciones son tipos particulares de Objetos, y se pueden invocar cada vez que sea necesario, se puede construir
+de tres maneras, pero la mas utilizada es la que tiene el siguiente anatomia: primero colocamos la palabra clave "function" luego 
+el nombre de la funcion seguido de parentesis (donde se colocaran los argumentos si los hay) y por ultimo se abriran llaves para 
+colocar dentro la logica de la funcion.
+	Los argumentos son variables que se pasan a las funciones como parametros que luego se pueden utilizar dentro
+de esa funcion y la declaracion "return" es lo que devuelve dicha funcion. Por ejemplo si tenemos una funcion para sumar
+dos numeros que llegan como argumentos, solo queremos que retorne el resultado de esa suma lo que quedaria de la siguiente
+forma:
+	function suma(2,3){
+		return 2+3;
+	}
+
+	Cuando llamamos dicha funcion solo devolvera el valor 5.
+
+Declaraciones if:
+
+	la declaraciones if son condicionales que se utilizan en las funciones para justamente condicionar el retorno de dicha funcion,
+si algo pasa de devolvera algo, si no sucede pasara otra cosa,
+	La estructura seria colocar primero la declaracion "if", luego entre parentesis se coloca la condicion, despues se abren llaves y dentro
+se coloca lo que sucede si esa condicion se cumple, por ultimo se cierra la llave y existe la posibilidad de colocar la declaracion "else" que seria
+si no sucede lo que se plantea en la condicion if; sucedera lo siguiente y se coloca lo que sucedera entre llaves.
+
+Valores booleanos (true, false):
+
+	Los valores booleanos son basicamente valores que pueden ser verdaderos o falsos.

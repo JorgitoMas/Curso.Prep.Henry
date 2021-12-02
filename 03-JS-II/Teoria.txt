@@ -1,0 +1,12 @@
+En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+for: es un bucle que se utiliza para repetir un determinado numero de veces una o mas instrucciones;
+su estructura es similar a la del "if". Primero se coloca la sentencia "for" y luego, entre parentesis, necesitaremos
+primero declarar una variable y asignarle un valor de comienzo de un recorrido, luego separado con punto y coma
+colocamos una expresion condicional que nos dira hasta cuando tenemos que repetir el proceso, y por ultimo tambien separado con
+punto y coma colocamos el incremento de la variable, por ultimo entre corchetes colocamos la logica del bucle.
+
+&&, ||,!: son operdaores logicos, el "&&" es el operador "Y" evaluará dos expresiones y devolvera verdadero si ambas lo son, caso contrario devolverá falso.
+El "||" es el operador "O" tambien evaluará las expresiones y devolverá verdadero si ambas o almenos una es verdadero
+y falso solo si las dos expresiones son falsas. Por ultimo "!" es el operador "NO" y lo que hace es devolver el 
+valor booleano opuesto del que se pasa. 

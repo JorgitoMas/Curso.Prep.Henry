@@ -1,0 +1,20 @@
+En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+Objetos: Los objetos son basicamente una coleccion de propiedades
+
+Propiedades: Las propiedades son una asociacion entre un nombre o clave y un valor
+
+Métodos: Los metodos son funciones, 
+
+Bucle for…in: Los bucles for...in sirven para iterar objetos, se coloca el for y entre parentesis
+declaramos una variable, luego la palabra clave "in" y el nombre del objeto, de esta manera podemos 
+acceder al nombre de la propiedad o al valor de la misma a traves de anotaciones con puntos o con corchetes 
+
+Notación de puntos vs notación de corchetes: El dot notation es una forma de acceder a una propiedad de un objeto
+al igual que la notacion de corchetes, ambas tienen ventajas y desventajas. La ventaja de dot notation es que es 
+mucho mas facil de escribir el codigo, solo basta colocar el nombre del objeto y luego punto y el nombre de la 
+propiedad; eso mismo seria una desventaja de la break notation. El dot notation es literal, es decir que 
+si o si debe existir una propiedad del objeto con el nombre que coloco luego del punto; si esto no es asi
+nos arrojara el valor undefined, mientras que en la anotacion de corchetes podemos declarar una variable y a esa 
+variable colocarle un valor que coincida con el nombre de una propiedad del objeto, al invocar el objeto sub la 
+variable creada, nos devolvera el valor de la propiedad ya que coincide con el nombre de la variable creada
